@@ -2,7 +2,7 @@
 :root {
     --white: #FFFFFF;
     --black: #000000;
-    --very-light-pink: #C7C7C7;
+    --very-light-pink: #b4987d;
     --text-input-field: #F7F7F7;
     --hospital-green: #ACD9B2;
     --sm: 14px;
@@ -22,6 +22,7 @@
     justify-content: space-between;
     padding: 0 24px;
     border-bottom: 1px solid var(--very-light-pink);
+    background-color: #F7F7F7;
   }
   .menu {
     display: none;
@@ -66,6 +67,7 @@
   }
   .navbar-shopping-cart {
     position: relative;
+    cursor: pointer;
   }
   .navbar-shopping-cart div {
     width: 16px;
@@ -80,6 +82,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
   }
   /* Menu DESKTOP */
   .desktop-menu {
@@ -126,8 +129,10 @@
     top: 61px;
     background-color: var(--white);
     left:0;
-    width: calc(100% - 30px);
-    border: solid grey 2px;
+    width: calc(100% - 25px);
+    border: solid grey 1px;
+    border-radius: 20px;
+
   }
   .mobile-menu a {
     text-decoration: none;
